@@ -1,6 +1,6 @@
 {
     "type": "APL",
-    "version": "1.0",
+    "version": "1.1",
     "theme": "dark",
     "import": [],
     "resources": [
@@ -63,8 +63,10 @@
                                 "fontWeight": "800",
                                 "fontSize": "10vh",
                                 "position": "absolute",
+                                "id":"textId1",
                                 "top": "5vh",
-                                "left": "25vw"
+                                "left": "25vw",
+                                "opacity": "${environment.aplVersion == '1.1' ? 0 : 1}"
                             },
                             {
                                 "type": "Text",
@@ -72,8 +74,10 @@
                                 "fontWeight": "800",
                                 "fontSize": "15vh",
                                 "position": "absolute",
+                                "id":"textId2",
                                 "top": "12vh",
-                                "left": "34vw"
+                                "left": "34vw",
+                                "opacity": "${environment.aplVersion == '1.1' ? 0 : 1}"
                             },
                             {
                                 "type": "Text",
@@ -81,8 +85,10 @@
                                 "fontWeight": "900",
                                 "fontSize": "10vh",
                                 "position": "absolute",
+                                "id":"textId3",
                                 "top": "25vh",
-                                "left": "55vw"
+                                "left": "55vw",
+                                "opacity": "${environment.aplVersion == '1.1' ? 0 : 1}"
                             }
                         ]
                     }

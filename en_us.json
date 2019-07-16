@@ -1,0 +1,55 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "joe restaurant",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HappyHourIntent",
+                    "slots": [],
+                    "samples": [
+                        "happy hour"
+                    ]
+                },
+                {
+                    "name": "SpecialsIntent",
+                    "slots": [],
+                    "samples": [
+                        "specials"
+                    ]
+                },
+                {
+                    "name": "ItemIntent",
+                    "slots": [],
+                    "samples": [
+                        "item"
+                    ]
+                },
+                {
+                    "name": "AboutIntent",
+                    "slots": [],
+                    "samples": [
+                        "learn more",
+                        "about"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}

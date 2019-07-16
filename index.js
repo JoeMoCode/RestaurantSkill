@@ -61,8 +61,9 @@ const LaunchRequestHandler = {
       handlerInput.responseBuilder
         .addDirective({
             type: 'Alexa.Presentation.APL.RenderDocument',
-            document: require('./launchrequest.json')
-          });
+            document: require('./launchRequest.json')
+          })
+        .addDirective(require('./commands.json'));
     }
     return handlerInput.responseBuilder
       .speak(speechText + reprompt)
@@ -222,8 +223,8 @@ const AboutIntentHandler = {
       handlerInput.responseBuilder
         .addDirective({
             type: 'Alexa.Presentation.APL.RenderDocument',
-            document: require('./launchrequest.json')
-          });
+            document: require('./launchRequest.json')
+          }).addDirective(require('./commands.json'));
     }
     return handlerInput.responseBuilder
       .speak(speechText + reprompt)
@@ -245,8 +246,8 @@ const HelpIntentHandler = {
       handlerInput.responseBuilder
         .addDirective({
             type: 'Alexa.Presentation.APL.RenderDocument',
-            document: require('./launchrequest.json')
-          });
+            document: require('./launchRequest.json')
+          }).addDirective(require('./commands.json'));
     }
     return handlerInput.responseBuilder
       .speak(speechText)
