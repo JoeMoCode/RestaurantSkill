@@ -38,20 +38,23 @@
                             "text": "<i>The </i>",
                             "fontWeight": "800",
                             "fontSize": "7vh",
-                            "paddingTop": "2vh"
+                            "paddingTop": "2vh",
+                            "id":"textId1"
                         },
                         {
                              "type": "Text",
                             "text": "Alexa",
                             "fontWeight": "800",
-                            "fontSize": "10vh"
+                            "fontSize": "10vh",
+                            "id":"textId2"
                         },
                         {
                             "type": "Text",
                             "text": "<i> Cafe</i>",
                             "fontWeight": "900",
                             "fontSize": "7vh",
-                            "paddingTop": "2vh"
+                            "paddingTop": "2vh",
+                            "id":"textId3"
                         }
                     ]
                 },
@@ -71,20 +74,23 @@
                             "text": "<i>The </i>",
                             "fontWeight": "800",
                             "fontSize": "7vh",
-                            "paddingTop": "2vh"
+                            "paddingTop": "2vh",
+                            "id":"textId1"
                         },
                         {
                             "type": "Text",
                             "text": "Alexa",
                             "fontWeight": "800",
-                            "fontSize": "10vh"
+                            "fontSize": "10vh",
+                            "id":"textId2"
                         },
                         {
                             "type": "Text",
                             "text": "<i> Cafe</i>",
                             "fontWeight": "900",
                             "fontSize": "7vh",
-                            "paddingTop": "2vh"
+                            "paddingTop": "2vh",
+                            "id":"textId3"
                         }
                     ]
                 }
